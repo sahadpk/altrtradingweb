@@ -34,7 +34,7 @@ const productData = {
             category: 11,
             mainCategory: 1,
             price: 79,
-            image: "imager/product/product.jpg",
+            image: "imager/imagesaltr/shop1-Photoroom.png",
             isNew: true,
         },
         {
@@ -43,7 +43,7 @@ const productData = {
             category: 12,
             mainCategory: 1,
             price: 89,
-            image: "imager/product/product2.jpg",
+            image: "imager/imagesaltr/shop2-Photoroom.png",
             isSale: true,
         },
         {
@@ -52,7 +52,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/product/product3.jpg",
+            image: "imager/imagesaltr/shop3-Photoroom.png",
         },
         {
             id: 4,
@@ -60,7 +60,7 @@ const productData = {
             category: 22,
             mainCategory: 2,
             price: 65,
-            image: "imager/product/product4.jpg",
+            image: "imager/imagesaltr/shop7-Photoroom.png",
             isNew: true,
         },
         {
@@ -69,7 +69,7 @@ const productData = {
             category: 31,
             mainCategory: 3,
             price: 35,
-            image: "imager/product/product5.jpg",
+            image: "imager/imagesaltr/shop8-Photoroom.png",
         },
         {
             id: 6,
@@ -77,7 +77,322 @@ const productData = {
             category: 32,
             mainCategory: 3,
             price: 42,
-            image: "imager/product/product6.jpg",
+            image: "imager/imagesaltr/shop9-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop4.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop12-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop10-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop19-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop20-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop24-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop25-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop26-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop27-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop28-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop29-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop30-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop31-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop32-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop33-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop34-Photoroom.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop35.png",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop38.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop14.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop16.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop37.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop18.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop39.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop40.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop41.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop42.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop43.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop44.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop45.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop46.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop47.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop48.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop49.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop50.jpg",
+            isSale: true,
+        },
+        {
+            id: 7,
+            name: "300ml Mountain Breeze",
+            category: 32,
+            mainCategory: 3,
+            price: 42,
+            image: "imager/imagesaltr/shop51.jpg",
             isSale: true,
         },
     ],
@@ -121,7 +436,7 @@ function filterProducts(selectedValue) {
             <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12">
                 <div class="card">
                     <div class="card-img-top">
-                        <a href="product-single.html" class="wp-post-image">
+                        <a href="" class="">
                             <img class="image-cover" src="${
                                 product.image
                             }" alt="${product.name}">
@@ -141,23 +456,11 @@ function filterProducts(selectedValue) {
                         </div>
                     </div>
                     <div class="card-body">
-                        <p class="card-title">
-                            <a href="product-list.html">${getSubcategoryName(
-                                product.category
-                            )}</a>
-                        </p>
+                      
                         <p class="woocommerce-loop-product__title">
-                            <a href="product-single.html">${product.name}</a>
+                            <h6>${product.name}</h6>
                         </p>
-                        <span class="price">
-                            <ins>
-                                <span class="woocommerce-Price-amount amount">
-                                    <span class="woocommerce-Price-currencySymbol">$</span>${
-                                        product.price
-                                    }
-                                </span>
-                            </ins>
-                        </span>
+                       
                     </div>
                 </div>
             </div>`;
