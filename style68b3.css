@@ -6,7 +6,7 @@
 }
 .header .logo img {
     width: 100%;
-    height: 100%;
+    height: 100px;
 }
 
 .menu {
@@ -4067,7 +4067,7 @@ i {
 }
 .slider-homepage1 .slide-homepage {
     background-position: center center;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 .slider-homepage1 .slide-homepage .content-slide {
