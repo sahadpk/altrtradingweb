@@ -241,7 +241,7 @@ const productData = {
             id: 23,
             name: "Round Tissue Dispenser",
             category: 32,
-            mainCategory: 1,
+            mainCategory: 4,
             price: 42,
             image: "imager/imagesaltr/shop38.jpg",
             isSale: true,
@@ -286,7 +286,7 @@ const productData = {
             id: 27,
             name: "Cut Tissue Dispenser",
             category: 32,
-            mainCategory: 1,
+            mainCategory: 4,
             price: 42,
             image: "imager/imagesaltr/shop39.jpg",
             isSale: true,
@@ -295,7 +295,7 @@ const productData = {
             id: 28,
             name: "Maxi Roll Dispenser",
             category: 32,
-            mainCategory: 1,
+            mainCategory: 4,
             price: 42,
             image: "imager/imagesaltr/shop40.jpg",
             isSale: true,
@@ -304,7 +304,7 @@ const productData = {
             id: 29,
             name: "Hand Soap Dispenser",
             category: 32,
-            mainCategory: 1,
+            mainCategory: 4,
             price: 42,
             image: "imager/imagesaltr/shop41.jpg",
             isSale: true,
@@ -349,7 +349,7 @@ const productData = {
             id: 34,
             name: "Dust Bin",
             category: 32,
-            mainCategory: 1,
+            mainCategory: 4,
             price: 42,
             image: "imager/imagesaltr/shop46.jpg",
             isSale: true,
@@ -405,7 +405,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 41,
@@ -413,7 +413,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 42,
@@ -421,7 +421,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 43,
@@ -429,7 +429,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 44,
@@ -437,7 +437,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 45,
@@ -445,7 +445,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 46,
@@ -453,7 +453,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 47,
@@ -461,7 +461,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 48,
@@ -469,7 +469,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 49,
@@ -477,7 +477,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 50,
@@ -485,7 +485,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 51,
@@ -493,7 +493,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 52,
@@ -501,7 +501,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 53,
@@ -509,7 +509,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 54,
@@ -517,7 +517,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 55,
@@ -525,7 +525,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
         {
             id: 56,
@@ -533,7 +533,7 @@ const productData = {
             category: 21,
             mainCategory: 2,
             price: 45,
-            image: "imager/imagesaltr/shop3-Photoroom.png",
+            image: "imager/imagesaltr/shop3.png",
         },
     ],
 };
