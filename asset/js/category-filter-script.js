@@ -30,7 +30,7 @@ const productData = {
     products: [
         {
             id: 1,
-            name: "Aroma Diffuser Plus",
+            name: "AEROSOL SPRAY – FOR YOU",
             category: 11,
             mainCategory: 1,
             price: 79,
@@ -39,7 +39,7 @@ const productData = {
         },
         {
             id: 2,
-            name: "Aerosol Premium",
+            name: "Smart Scent Diffuser – Small -Bluetooth (White)",
             category: 12,
             mainCategory: 1,
             price: 89,
@@ -48,7 +48,7 @@ const productData = {
         },
         {
             id: 3,
-            name: "Standard Fragrance Oil",
+            name: "Aroma oil 500ml",
             category: 21,
             mainCategory: 2,
             price: 45,
@@ -56,7 +56,7 @@ const productData = {
         },
         {
             id: 4,
-            name: "Premium Fragrance Oil",
+            name: "Smart Scent Diffuser – Small -Bluetooth (White)",
             category: 22,
             mainCategory: 2,
             price: 65,
@@ -65,7 +65,7 @@ const productData = {
         },
         {
             id: 5,
-            name: "250ml Fresh Air",
+            name: "Smart Scent Diffuser – Small -Bluetooth (Black)",
             category: 31,
             mainCategory: 3,
             price: 35,
@@ -73,7 +73,7 @@ const productData = {
         },
         {
             id: 6,
-            name: "300ml Mountain Breeze",
+            name: "Aroma Diffuser Machine – Medium (Black)",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -82,7 +82,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Aroma PED Diffuser Machine -Small",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -91,7 +91,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Aroma Diffuser Machine – Medium (Black)",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -100,7 +100,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Aroma Diffuser Machine – Medium (White)",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -109,7 +109,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Premium Diffuser Machine Bluetooth – Big – Orange",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -118,25 +118,17 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Premium Diffuser Machine Bluetooth – Big – Red",
             category: 32,
             mainCategory: 3,
             price: 42,
             image: "imager/imagesaltr/shop20-Photoroom.png",
             isSale: true,
         },
+       
         {
             id: 7,
-            name: "300ml Mountain Breeze",
-            category: 32,
-            mainCategory: 3,
-            price: 42,
-            image: "imager/imagesaltr/shop24-Photoroom.png",
-            isSale: true,
-        },
-        {
-            id: 7,
-            name: "300ml Mountain Breeze",
+            name: "AEROSOL SPRAY – MOON",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -145,7 +137,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "AEROSOL SPRAY – OUDY",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -154,7 +146,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "AEROSOL SPRAY – LEMON",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -163,7 +155,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "AEROSOL SPRAY – PAPAYA",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -172,7 +164,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "AEROSOL SPRAY – EVENT",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -181,7 +173,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "AEROSOL SPRAY – LOVER",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -190,7 +182,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "AEROSOL SPRAY – SENSE",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -199,7 +191,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "AEROSOL SPRAY – GOLD",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -208,7 +200,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "AEROSOL SPRAY – LAVENDER",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -217,7 +209,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "AEROSOL SPRAY – JASMINE",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -226,7 +218,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Aroma Diffuser Machine – Medium (Black)",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -235,7 +227,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Round Tissue Dispenser",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -244,7 +236,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Aroma Diffuser Machine- Bluetooth- Small (White)",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -253,7 +245,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Premium Diffuser Machine Bluetooth",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -262,7 +254,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Flat Tissue Dispenser",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -271,7 +263,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Premium Diffuser Machine Bluetooth",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -280,7 +272,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Cut Tissue Dispenser",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -289,7 +281,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Maxi Roll Dispenser",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -298,7 +290,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Hand Soap Dispenser",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -307,7 +299,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Maxi Roll Tissue",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -316,7 +308,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "V Fold Tissue",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -325,7 +317,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Toilet Roll Tissue",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -334,7 +326,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Facial Tissue",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -343,7 +335,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Dust Bin",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -352,7 +344,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Disinfectant Cleaner Lavender",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -361,7 +353,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "All Purpose Disinfectant Cleaner",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -370,7 +362,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "All Purpose Cleaner",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -379,7 +371,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Chemex Bleach",
             category: 32,
             mainCategory: 3,
             price: 42,
@@ -388,7 +380,7 @@ const productData = {
         },
         {
             id: 7,
-            name: "300ml Mountain Breeze",
+            name: "Pine Disinfectant",
             category: 32,
             mainCategory: 3,
             price: 42,
