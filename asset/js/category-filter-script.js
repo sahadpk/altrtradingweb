@@ -268,7 +268,7 @@ const productData = {
             id: 25,
             name: "Flat Tissue Dispenser",
             category: 32,
-            mainCategory: 1,
+            mainCategory: 4,
             price: 42,
             image: "imager/imagesaltr/shop37.jpg",
             isSale: true,
