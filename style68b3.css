@@ -589,7 +589,7 @@
     display: block;
     left: 0;
     bottom: -10px;
-    background: #ffa6a8;
+   
     -webkit-mask: url(imager/line-title2.svg) repeat left center;
     mask: url(imager/line-title2.svg) repeat left center;
 }
@@ -690,7 +690,7 @@
     display: block;
     right: 0;
     bottom: -20px;
-    background: #ffa6a8;
+    
     -webkit-mask: url(imager/line-title2.svg) repeat left center;
     mask: url(imager/line-title2.svg) repeat left center;
 }
@@ -782,7 +782,7 @@
     display: block;
     left: 0;
     bottom: -10px;
-    background: #ffa6a8;
+    
     -webkit-mask: url(imager/line-title2.svg) repeat left center;
     mask: url(imager/line-title2.svg) repeat left center;
 }
@@ -1661,7 +1661,7 @@ i {
     left: 50%;
     margin-left: -45px;
     bottom: -20px;
-    background: #ffa6a8;
+    
     -webkit-mask: url(imager/line-title2.svg) repeat left center;
     mask: url(imager/line-title2.svg) repeat left center;
 }
@@ -1982,7 +1982,7 @@ i {
     bottom: -10px;
     left: 50%;
     margin-left: -75px;
-    background: #ffa6a8;
+   
     -webkit-mask: url(imager/line-title2.svg) repeat left center;
     mask: url(imager/line-title2.svg) repeat left center;
 }
@@ -2822,7 +2822,7 @@ i {
     display: block;
     left: 0;
     bottom: -15px;
-    background: #ffa6a8;
+    
     -webkit-mask-image: url(imager/line-title2.svg);
     -webkit-mask-size: contain;
 }
@@ -5874,7 +5874,7 @@ i {
     display: block;
     left: 0;
     bottom: -10px;
-    background: #ffa6a8;
+    
     -webkit-mask: url(imager/line-title2.svg) repeat left center;
     mask: url(imager/line-title2.svg) repeat left center;
 }
@@ -5932,7 +5932,7 @@ i {
     border-radius: 0;
 }
 .contact-us .content-contact-us button:hover {
-    background: #ffa6a8;
+    
 }
 
 @media all and (max-width: 767px) {
@@ -6223,7 +6223,7 @@ i {
     border: 1px solid #e6e6e6;
 }
 .best-new .product .card .card-body button:hover {
-    background: #ffa6a8;
+    
     color: white;
 }
 .best-new .product .title-best-new {
@@ -6245,7 +6245,7 @@ i {
     display: block;
     left: 0;
     bottom: -15px;
-    background: #ffa6a8;
+   
     -webkit-mask: url(imager/line-title2.svg) repeat left center;
     mask: url(imager/line-title2.svg) repeat left center;
 }
@@ -6259,7 +6259,7 @@ i {
     border-right: none !important;
 }
 .best-new .product .title-best-new .btn-left:hover {
-    background: #ffa6a8;
+    
 }
 .best-new .product .title-best-new .btn-left:hover span {
     color: white;
@@ -6273,7 +6273,7 @@ i {
     border: 1px solid #e6e6e6;
 }
 .best-new .product .title-best-new .btn-right:hover {
-    background: #ffa6a8;
+ 
 }
 .best-new .product .title-best-new .btn-right:hover span {
     color: white;
@@ -8635,6 +8635,14 @@ input:checked + .slider:before {
     opacity: 1;
     display: block !important;
 }
+@media only screen and (max-width: 600px) {
+    .header .logo img {
+        width: 100%;
+        height: 100px;
+       margin-right: -200px !important;
+       margin-top: -20px !important;
+    }
+  }
 
 
 /*# sourceMappingURL=style.css.map */
