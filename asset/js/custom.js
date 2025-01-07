@@ -41,6 +41,7 @@ var custom_js = {
         jQuery(".click-mobile").on("click", function (e) {
             e.preventDefault();
             jQuery(".menu-mobile").toggleClass("show");
+            
 
             if (jQuery(this).hasClass("lnr-menu")) {
                 jQuery(this).removeClass("lnr-menu").addClass("lnr-cross");
@@ -48,6 +49,7 @@ var custom_js = {
                 jQuery(this).removeClass("lnr-cross").addClass("lnr-menu");
             }
         });
+
 
         // Dropdown menu
         jQuery(".drop-link").on("click", function (e) {

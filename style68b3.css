@@ -6318,5 +6318,27 @@ i {
         margin: 5px 0;
     }
 }
+.menu-mobile.show {
+    display: block;
+}
+
+.menu-mobile ul {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+}
+
+.menu-mobile ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.menu-mobile ul li:last-child {
+    border: none;
+}
+
+.header-mobile {
+    position: relative;
+}
 
 /*# sourceMappingURL=style.css.map */

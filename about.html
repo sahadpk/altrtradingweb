@@ -36,6 +36,30 @@
     />
         <link rel="icon" href="favicon.png" type="image/png" />
         <title>About</title>
+        <style>
+             .menu-mobile.show {
+                display: block;
+            }
+
+            .menu-mobile ul {
+                list-style: none;
+                padding: 15px;
+                margin: 0;
+            }
+
+            .menu-mobile ul li {
+                padding: 10px 0;
+                border-bottom: 1px solid #eee;
+            }
+
+            .menu-mobile ul li:last-child {
+                border: none;
+            }
+
+            .header-mobile {
+                position: relative;
+            }
+        </style>
     </head>
     <body>
         <!--header-->
@@ -116,13 +140,17 @@
                         <div></div>
                     </div>
                 </div>
-
+        
                 <div class="menu-mobile">
                     <ul>
-                        <li><a href="index.html" class="">home</a></li>
                         <li>
-                            <a href="about.html">About</a
-                            ><span class="menu-active"></span>
+                            <a href="index.html" class="menu-active">home</a>
+                        </li>
+                        <li>
+                            <a href="">About</a
+                            ><span
+                                class="lnr lnr-chevron-down drop-link"
+                            ></span>
                         </li>
                         <li>
                             <a href="shop-4-colum.html">products</a
@@ -142,6 +170,7 @@
                                 class="lnr lnr-chevron-down drop-link"
                             ></span>
                         </li>
+                        
                         <li><a href="contact-us.html">contact</a></li>
                     </ul>
                 </div>
