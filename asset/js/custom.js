@@ -1,212 +1,203 @@
 "use strict";
 var custom_js = {
-	init: function () {
-		jQuery('.introduce1').on('click', function () {
-			jQuery('.introduce').css('display', 'block');
-		});
-		jQuery('.search-header1').on('click', function () {
-			jQuery('.search-header').css('display', 'block');
-			jQuery('.header-right').css('display', 'none');
-		})
-		jQuery('.close-introduce').on('click', function () {
-			jQuery('.introduce').css('display', 'none');
-		})
-		jQuery('.close-search').on('click', function () {
-			jQuery('.search-header').css('display', 'none');
-			jQuery('.header-right').css('display', 'block');
-		})
-		jQuery('.lost-password').on('click', function () {
-			jQuery('.content-my-account-right').css('display', 'none');
-			jQuery('.content-my-account-left').css('display', 'none');
-			jQuery('.form-lost-password').css('display', 'block');
-		})
-		jQuery('.reset-password').on('click', function () {
-			jQuery('.content-my-account-right').css('display', 'block');
-			jQuery('.content-my-account-left').css('display', 'block');
-			jQuery('.form-lost-password').css('display', 'none');
-		})
-		//click header mobile
-		jQuery('.click-mobile').on('click', function () {
-			if (jQuery('.click-mobile').hasClass('lnr-menu')) {
-				jQuery('.click-mobile').addClass('lnr-cross');
-				jQuery('.click-mobile').removeClass('lnr-menu');
-				jQuery('.menu-mobile').slideToggle(200, 'linear');
+    init: function () {
+        // Introduce toggle
+        jQuery(".introduce1").on("click", function () {
+            jQuery(".introduce").css("display", "block");
+        });
 
-			} else {
-				jQuery('.click-mobile').addClass('lnr-menu');
-				jQuery('.click-mobile').removeClass('lnr-cross');
-				jQuery('.menu-mobile').slideToggle(200, 'linear');
-			}
-		})
-		jQuery('.drop-link').on('click', function (e) {
-			jQuery(this).siblings('.drop-menu').slideToggle(200, 'linear');
-			jQuery(this).toggleClass('clicked');
-			e.stopPropagation();
-		});
+        // Search header toggle
+        jQuery(".search-header1").on("click", function () {
+            jQuery(".search-header").css("display", "block");
+            jQuery(".header-right").css("display", "none");
+        });
 
-		// payment
-		jQuery('.showpayment').on('click', function (e) {
-			jQuery(this).parent().toggleClass('active')
-		})
+        // Close introduce
+        jQuery(".close-introduce").on("click", function () {
+            jQuery(".introduce").css("display", "none");
+        });
 
+        // Close search
+        jQuery(".close-search").on("click", function () {
+            jQuery(".search-header").css("display", "none");
+            jQuery(".header-right").css("display", "block");
+        });
 
-		//select product
-		jQuery('.prev').on('click', function (e) {
-			e.stopImmediatePropagation();
-			var btn_group_parent = $(this).closest('.btn-group');
-			var number = 0;
-			var show_number = btn_group_parent.find('.show-number');
-			var a = show_number.text();
-			a = parseInt(a);
-			if (a > 1) {
-				number = a - 1;
-			}
-			else {
-				number = 1;
-			}
-			show_number.text(number);
+        // Lost password handling
+        jQuery(".lost-password").on("click", function () {
+            jQuery(".content-my-account-right").css("display", "none");
+            jQuery(".content-my-account-left").css("display", "none");
+            jQuery(".form-lost-password").css("display", "block");
+        });
 
-		});
+        // Reset password
+        jQuery(".reset-password").on("click", function () {
+            jQuery(".content-my-account-right").css("display", "block");
+            jQuery(".content-my-account-left").css("display", "block");
+            jQuery(".form-lost-password").css("display", "none");
+        });
 
-		jQuery('.next').on('click', function (e) {
-			e.stopImmediatePropagation();
-			var btn_group_parent = $(this).closest('.btn-group');
-			var number = 0;
-			var show_number = btn_group_parent.find('.show-number');
-			var a = show_number.text();
-			a = parseInt(a);
-			if (a > 0) {
-				number = a + 1;
-			}
-			show_number.text(number);
-		});
+        // Mobile menu toggle
+        jQuery(".click-mobile").on("click", function (e) {
+            e.preventDefault();
+            jQuery(".menu-mobile").toggleClass("show");
 
+            if (jQuery(this).hasClass("lnr-menu")) {
+                jQuery(this).removeClass("lnr-menu").addClass("lnr-cross");
+            } else {
+                jQuery(this).removeClass("lnr-cross").addClass("lnr-menu");
+            }
+        });
 
-		// share
-		jQuery('.share').on('click', function (e) {
-			jQuery(this).parent().toggleClass('active')
-		})
+        // Dropdown menu
+        jQuery(".drop-link").on("click", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            jQuery(this).siblings(".drop-menu").slideToggle();
+            jQuery(this).toggleClass("clicked");
+        });
 
+        // Payment toggle
+        jQuery(".showpayment").on("click", function (e) {
+            jQuery(this).parent().toggleClass("active");
+        });
 
-		// check out page
-		jQuery(".woocommerce-form-login").hide();
-		jQuery(".showlogin").on('click', function () {
-			jQuery(".woocommerce-form-login").slideToggle();
-		});
+        // Product quantity controls
+        jQuery(".prev").on("click", function (e) {
+            e.stopImmediatePropagation();
+            var btn_group_parent = jQuery(this).closest(".btn-group");
+            var show_number = btn_group_parent.find(".show-number");
+            var current = parseInt(show_number.text());
+            show_number.text(current > 1 ? current - 1 : 1);
+        });
 
-		jQuery(".checkout_coupon").hide();
-		jQuery(".showcoupon").on('click', function () {
-			jQuery(".checkout_coupon").slideToggle();
-		});
+        jQuery(".next").on("click", function (e) {
+            e.stopImmediatePropagation();
+            var btn_group_parent = jQuery(this).closest(".btn-group");
+            var show_number = btn_group_parent.find(".show-number");
+            var current = parseInt(show_number.text());
+            show_number.text(current + 1);
+        });
 
-	},
+        // Share toggle
+        jQuery(".share").on("click", function (e) {
+            jQuery(this).parent().toggleClass("active");
+        });
 
-	generateCarousel: function () {
-		if (jQuery().owlCarousel) {
-			jQuery('.owl-carousel').owlCarousel({
-				loop      : true,
-				margin    : 10,
-				nav       : false,
-				responsive: {
-					0   : {
-						items: 1
-					},
-					600 : {
-						items: 3
-					},
-					1000: {
-						items: 5
-					}
-				}
-			})
-		}
-	},
+        // Checkout form toggles
+        jQuery(".woocommerce-form-login").hide();
+        jQuery(".showlogin").on("click", function () {
+            jQuery(".woocommerce-form-login").slideToggle();
+        });
 
-	singleSlider    : function () {
-		if (jQuery().flexslider) {
-			jQuery('#carousel').flexslider({
-				animation    : "slide",
-				controlNav   : false,
-				animationLoop: false,
-				slideshow    : false,
-				itemWidth    : 120,
-				itemMargin   : 20,
-				asNavFor     : '#slider',
-				directionNav : true,             //Boolean: Create navigation for previous/next navigation? (true/false)
-				prevText     : "",           //String: Set the text for the "previous" directionNav item
-				nextText     : ""               //String: Set the text for the "next" directionNav item
-			});
-			jQuery('#slider').flexslider({
-				animation    : "slide",
-				controlNav   : false,
-				animationLoop: false,
-				slideshow    : false,
-				sync         : "#carousel",
-				directionNav : false,             //Boolean: Create navigation for previous/next navigation? (true/false)
-				start        : function (slider) {
-					jQuery('body').removeClass('loading');
-				}
-			});
-			jQuery('#flex-slider').flexslider({
-				animation: "slide",
-				controlNav: false,
-				animationLoop: false,
-				slideshow: false,
-				sync: "#flex-carousel"
-			});
-			jQuery('#flex-carousel').flexslider({
-				animation: "slide",
-				controlNav: false,
-				animationLoop: false,
-				slideshow: false,
-				itemWidth: 114,
-				itemMargin: 20,
-				asNavFor: '#flex-slider'
-			});
-		}
-	}
+        jQuery(".checkout_coupon").hide();
+        jQuery(".showcoupon").on("click", function () {
+            jQuery(".checkout_coupon").slideToggle();
+        });
+    },
+
+    // Carousel initialization
+    generateCarousel: function () {
+        if (jQuery().owlCarousel) {
+            jQuery(".owl-carousel").owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    600: {
+                        items: 3,
+                    },
+                    1000: {
+                        items: 5,
+                    },
+                },
+            });
+        }
+    },
+
+    // Product slider initialization
+    singleSlider: function () {
+        if (jQuery().flexslider) {
+            jQuery("#carousel").flexslider({
+                animation: "slide",
+                controlNav: false,
+                animationLoop: false,
+                slideshow: false,
+                itemWidth: 120,
+                itemMargin: 20,
+                asNavFor: "#slider",
+                directionNav: true,
+                prevText: "",
+                nextText: "",
+            });
+
+            jQuery("#slider").flexslider({
+                animation: "slide",
+                controlNav: false,
+                animationLoop: false,
+                slideshow: false,
+                sync: "#carousel",
+                directionNav: false,
+                start: function (slider) {
+                    jQuery("body").removeClass("loading");
+                },
+            });
+
+            jQuery("#flex-slider").flexslider({
+                animation: "slide",
+                controlNav: false,
+                animationLoop: false,
+                slideshow: false,
+                sync: "#flex-carousel",
+            });
+
+            jQuery("#flex-carousel").flexslider({
+                animation: "slide",
+                controlNav: false,
+                animationLoop: false,
+                slideshow: false,
+                itemWidth: 114,
+                itemMargin: 20,
+                asNavFor: "#flex-slider",
+            });
+        }
+    },
 };
 
-$(document).ready(function () {
-	custom_js.init();
-	custom_js.generateCarousel();
-	custom_js.singleSlider();
-
+// Initialize on document ready
+jQuery(document).ready(function () {
+    custom_js.init();
+    custom_js.generateCarousel();
+    custom_js.singleSlider();
 });
 
+// Deal countdown timer
+var countDownDate = new Date(Date.parse(new Date()) + 6 * 24 * 60 * 60 * 1000);
 
-// Set the date we're counting down to
-var countDownDate =  new Date(Date.parse(new Date()) + 6 * 24 * 60 * 60 * 1000);
-
-// Update the count down every 1 second
 var x = setInterval(function () {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
 
-	// Get todays date and time
-	var now = new Date().getTime();
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-	// Find the distance between now and the count down date
-	var distance = countDownDate - now;
+    var dealday = document.getElementById("dealday");
+    if (dealday != null) {
+        document.getElementById("dealdays").innerHTML = days;
+        document.getElementById("dealhours").innerHTML = hours;
+        document.getElementById("dealminutes").innerHTML = minutes;
+        document.getElementById("dealseconds").innerHTML = seconds;
 
-	// Time calculations for days, hours, minutes and seconds
-	var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-	var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-	var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-
-	// Display the result in the element with id="demo"
-
-
-	var dealday = document.getElementById('dealday');
-	if (dealday != null) {
-		document.getElementById("dealdays").innerHTML = days;
-		document.getElementById("dealhours").innerHTML = hours;
-		document.getElementById("dealminutes").innerHTML = minutes;
-		document.getElementById("dealseconds").innerHTML = seconds;
-		// If the count down is finished, write some text
-		if (distance < 0) {
-			clearInterval(x);
-			document.getElementById("dealday").innerHTML = "EXPIRED";
-		}
-	}
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("dealday").innerHTML = "EXPIRED";
+        }
+    }
 }, 1000);
