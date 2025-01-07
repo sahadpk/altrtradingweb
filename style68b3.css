@@ -1278,7 +1278,7 @@
     display: block;
     left: 0;
     bottom: -20px;
-    background: #ffa6a8;
+    
     -webkit-mask: url(imager/line-title2.svg) repeat left center;
     mask: url(imager/line-title2.svg) repeat left center;
 }
@@ -2217,7 +2217,7 @@ i {
     }
 }
 .deal-day {
-    background-image: url("imager/home/bg-deal-day.jpg");
+    background-image: url("imager/imagesaltr/bgone-Photoroom.png");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
