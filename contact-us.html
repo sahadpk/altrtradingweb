@@ -163,7 +163,7 @@
                                 <li><p> Dubai</p></li>
                                 <li>P1, Block- I, Royal space property, Dubai industrial city,.
                                 </li>
-                                <li>Email: <a href="https://html.physcode.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="127973667a606b7c3f2b2052776a737f627e773c717d7f">[email&#160;protected]</a>
+                                <li>Email: <a href="">info@altrtrading.com</a>
                                     Phone: + (971) 586277378
                                 </li>
                             </ul>
@@ -173,7 +173,7 @@
                                 <li><p> Dubai</p></li>
                                 <li>P1, Block- I, Royal space property, Dubai industrial city,.
                                 </li>
-                                <li>Email: <a href="https://html.physcode.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="127973667a606b7c3f2b2052776a737f627e773c717d7f">[email&#160;protected]</a>
+                                <li>Email: <a href="">info@altrtrading.com</a>
                                     Phone: + (971) 586277378
                                 </li>
                             </ul>
@@ -185,11 +185,11 @@
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
                 <div class="col-md-6">
-                    <form action="#" method="post">
-                        <textarea placeholder="Message"></textarea>
+                    <form  method="POST" id="submit-form">
+                        <textarea for="message" name="message" placeholder="Message"></textarea>
                         <div class="row">
-                            <div class="col-md-6"><input type="text" placeholder="Your Name"></div>
-                            <div class="col-md-6"><input type="text" placeholder="Your Mail"></div>
+                            <div class="col-md-6"><input type="text" name="name" placeholder="Your Name"></div>
+                            <div class="col-md-6"><input type="text" name="email" placeholder="Your Mail"></div>
                         </div>
                         <button type="submit">SUBMIT</button>
                     </form>
@@ -230,9 +230,7 @@
                         <li>
                             <a
                                 href="https://html.physcode.com/cdn-cgi/l/email-protection"
-                                class="__cf_email__"
-                                data-cfemail="3376415a501e0b0173564b525e435f561d505c5e"
-                                >[email&#160;protected]</a
+                                >info@altrtrading.com</a
                             >
                         </li>
                         <li>www.altrtrading.com</li>
@@ -275,6 +273,25 @@
 <script src="asset/js/owl.carousel.js"></script>
 <script type="text/javascript" src="asset/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="asset/js/custom.js"></script>
+<script>
+    $("#submit-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbwArcBsyOPC_RXT4JjezBlORkyQ-6KE33Jwj61N-aCHmBYr-HfBudtxVpqrXC3VxMwT/exec",
+            data:$("#submit-form").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Form submitted successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    })
+</script>
 </body>
 
 <!-- Mirrored from html.physcode.com/uray/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Dec 2024 05:54:04 GMT -->

@@ -585,7 +585,7 @@ const productData = {
         },
         {
             id: 63,
-            name: "LED Dispenser",
+            name: "LCD Dispenser",
             category: 21,
             mainCategory: 1,
             price: 45,
@@ -593,7 +593,7 @@ const productData = {
         },
         {
             id: 64,
-            name: "LCD Dispenser",
+            name: "LED Dispenser",
             category: 21,
             mainCategory: 1,
             price: 45,
