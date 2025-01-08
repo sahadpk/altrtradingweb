@@ -2245,7 +2245,7 @@ i {
     bottom: -10px;
     left: 50%;
     margin-left: -75px;
-    background: white;
+   
     -webkit-mask: url(imager/line-title2.svg) repeat left center;
     mask: url(imager/line-title2.svg) repeat left center;
 }
